@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+<body bgcolor="aqua">
+    <center><img src="presilogo.png" alt="image" width="50%" height="20%">
+        <h2>Symposium Event Registration</h2>
+    <hr border="5" color="red">
+    <h3>Registration Form</h3>
+ 
+    <fieldset>
+    <table>
+
+    <form>
+        <tr>
+            <td>
+                <label for="name">
+                    Name
+                </label>
+            </td>
+            <td><input type="text" id="name" />
+            </td>
+        </tr>
+       
+        <tr>
+            <td><label for="Branch">
+                    Branch
+                </label>
+            </td>
+            <td><input type="text" id="branch" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Institution">
+                    Institution
+                </label>
+            </td>
+            <td><input type="text" id="int" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">
+                    Email
+                </label>
+            </td>
+            <td><input type="email" id="email" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="telnum">
+                    Mobile No.
+                </label>
+            </td>
+            <td><input type="telnum" id="telnum" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="address">
+                    Address
+                </label>
+            </td>
+            <td><textarea></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="State">
+                   State
+                </label>
+            </td>
+            <td><input type="text" id="state" />
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Dob">
+                    DOB
+                </label>
+            </td>
+            <td><input type="date" id="dob" />
+            </td>
+        </tr>
+        <tr>
+            <td>Gender: <td><input type="radio" id="gender" name="gender" value="male"/> Male    
+               
+                <input type="radio" id="gender" name="gender" value="female"/> Female </td><br/>   
+            </td>
+        </tr>
+        <tr>
+            <td>
+                   <label for="event">Event:</label>
+
+                   <td><select name="event" id="event">
+                     <option value="soloSinging">Solo Singing</option>
+                     <option value="Dance">Dance</option>
+                     <option value="Sketch">Sketch</option>
+                     <option value="RampWalk">Rampwalk</option>
+                   </select></td>
+       
+    <tr>
+        <td>
+         <input type="button" value="Submit"><br>
+        </td>
+        <td>
+            <input type="button" value="Reset">
+        </td>
+    </tr>
+       
+    </form>
+
+    </table>
+</fieldset>
+    </center>
+</body>
+</html>
